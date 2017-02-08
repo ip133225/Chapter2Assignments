@@ -1,0 +1,93 @@
+/**
+ * 
+ */
+package taco;
+
+import java.util.Scanner;
+/**
+ * @author IP133225
+ *
+ */
+public class tacoString 
+{
+
+	/**
+	 * @param args
+	 */
+	
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		tacoTruck();
+		menu();
+		orderingMenu();
+		
+	}
+	public static void orderingMenu()
+	{
+
+		String tacoString, burritoString;
+		double tacoPrice = 0.99;
+		double burritoPrice = 1.99;
+		double tacoOrdered;
+		double burritoOrdered;
+		double totalPrice;
+		double totalPriceWithTax;
+		
+		Scanner inputDevice = new Scanner(System.in);
+		
+		System.out.println("How many tacos do you want? >>>>>");
+		tacoOrdered = inputDevice.nextDouble();
+		inputDevice.nextLine();
+		
+		System.out.println("How many burritos do you want? >>>>>");
+		burritoOrdered = inputDevice.nextDouble();
+		inputDevice.nextLine();
+		
+		totalPrice = (tacoPrice * tacoOrdered) + (burritoOrdered * burritoPrice);
+		
+		System.out.println("How you ordered " + tacoOrdered + "Tacos, " + burritoOrdered +"burritos, for a total price of " + totalPrice);
+				
+	}
+	public static void menu()
+	{
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println("***********************************************");
+		System.out.println("			 Pepsi, Mounatain Dew, Root Beer, Sprite Price 0.99 "); 
+		System.out.println("			 Taco Price 0.99");
+		System.out.println("			 Tamale Price 0.99"); 
+		System.out.println("			 Burrito Price 1.99");
+		System.out.println("			 Nacho Price 1.99");  
+		System.out.println("			 Enchilada Price 2.99"); 
+		System.out.println(" 			 Chicken And Corn Chilaquiles Price 2.99"); 
+		System.out.println("			 Fajita Price 2.99 "); 
+		System.out.println("			 Burrito Bowl Soup Price 2.99"); 
+		System.out.println("             Cheesy Beef Quesadilla 3.99"); 
+		System.out.println("***********************************************");
+		System.out.println();
+		//the rest of my menu goes here.
+	}
+	public static void tacoTruck()
+	{
+		System.out.println("***********************************************");
+		System.out.println("*                                             *");
+		System.out.println("*     *******    *    ******  *******         *");
+		System.out.println("*        *      * *   *       *     *         *");
+		System.out.println("*        *     *****  *       *     *         *");
+		System.out.println("*        *    *     * ******  *******         ***************");
+		System.out.println("*                                             *          *   *");
+		System.out.println("*                                             *          *    *");
+		System.out.println("*                                             *          *******");
+		System.out.println("*                                             *   ***            *");
+		System.out.println("*                                             *                 *");
+		System.out.println("*  *******                                    *      *******   *");
+		System.out.println("***       *******************************************       ***");
+		System.out.println("   *     *                                           *     *");
+		System.out.println("   *******                                           *******");
+	}
+	
+
+}
+
