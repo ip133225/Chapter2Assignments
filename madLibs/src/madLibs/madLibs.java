@@ -17,8 +17,9 @@ public class madLibs {
 	public static void main(String[] args) {
 	
 		String color, wordEst,bodyPartPlural, animal, noun, pluralNoun,  wholeNumber; 
-		
-		color = JOptionPane.showInputDialog(null, "What you favorite color?"); 
+		int b, c;
+		int a = 5;
+	color = JOptionPane.showInputDialog(null, "What you favorite color?"); 
 		
 	   wordEst = JOptionPane.showInputDialog(null, "Pick a word that ends in est.");
 	   
@@ -32,11 +33,11 @@ public class madLibs {
 	   
 	   wholeNumber = JOptionPane.showInputDialog(null, "Give a \nwhole numberless than 10.");
 			   
-		b= Integer.parseInt(wholeNumber);
+		b = Integer.parseInt(wholeNumber);
 		
 		c = a - b;
 		
-		JOptionPane.showMessageDialog(null, "The" + color + "Dog is the "+ wordEst + "Dog of all. It has " + c + " " bodyPartPlural + " , "
+		JOptionPane.showMessageDialog(null, "The" + color + "Dog is the "+ wordEst + "Dog of all. It has " + c + " " + bodyPartPlural + " , "
 		+ animal + "\nshaped like a " + noun + ". It loves to eat " +pluralNoun + ", \nalthough it will jump on almost everything.");
 		// TODO Auto-generated method stub
 
