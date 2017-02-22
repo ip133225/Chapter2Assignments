@@ -1,13 +1,13 @@
 /**
  * 
  */
-package randomguessmatch;
+package Exercises;
 
 /**
  * @author IP133225
  *
  */
-public class RandomGuess2 {
+public class CondoSales2 {
 
 	/**
 	 * @param args

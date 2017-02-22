@@ -1,13 +1,13 @@
 /**
  * 
  */
-package randomguessmatch;
+package review;
 
 /**
  * @author IP133225
  *
  */
-public class random {
+public class BankBalance {
 
 	/**
 	 * @param args
