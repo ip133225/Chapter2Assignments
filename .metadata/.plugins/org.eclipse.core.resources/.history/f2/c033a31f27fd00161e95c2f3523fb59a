@@ -16,14 +16,14 @@ public class pizzaChoice
 		double smallCost = 6.99;
 		double mediumCost = 9.99;
 		double largeCost = 12.99;
-		int response;
+		
 		Scanner input = new Scanner(System.in);
 		
 		
 		System.out.print("Would you like a pizza? Yes or No>>>>>>");
 		choiceYes = input.nextLine();
 		//if you want pizza or not
-		do{
+		
 		if("Yes".equals(choiceYes) || "yes".equals(choiceYes) || "Y".equals(choiceYes))
 		{
 				System.out.print("You said " + choiceYes + " to have a pizza.");
@@ -60,10 +60,7 @@ public class pizzaChoice
 				    }
 			    }
 		    }
-		System.out.println("Would you like anyhting else?");
-		System.out.println("Enter 1 for yes, or any other number for no>>>>");
-		response = input.nextInt();
-	    }while(response == 1);
-		System.out.println("Have a great day!");
 	}
+	
+
 }
